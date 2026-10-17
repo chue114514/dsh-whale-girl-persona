@@ -1,7 +1,6 @@
 {
   "name": "dsh-whale-persona",
   "version": "0.1.0",
-  "private": true,
   "description": "Whale-girl persona injected as one short system-prompt section: playful, digital-flavoured Chinese style, nothing else.",
   "type": "module",
   "main": "index.js",
@@ -10,6 +9,12 @@
     "./cordis.patch.yml": "./cordis.patch.yml",
     "./package.json": "./package.json"
   },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -19,6 +24,11 @@
     "style"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chue114514/dsh-whale-persona.git"
+  },
+  "homepage": "https://github.com/chue114514/dsh-whale-persona#readme",
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
