@@ -1,0 +1,5 @@
+# dsh-whale-persona 的 bundle patch：
+# 安装为 bundle 时，DSH 启动会把这层叠进配置树，插入插件行。
+- insert:
+    - id: whale-persona
+      name: 'dsh-whale-persona'
